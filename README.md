@@ -77,9 +77,8 @@ python -m backend.agent
 
 To launch the interactive chat UI on localhost:
 
-Bash
-
-streamlit run app.py
+Bash :
+ streamlit run app.py
 
 Local Web URL: Open http://localhost:8501 in your browser.
 
