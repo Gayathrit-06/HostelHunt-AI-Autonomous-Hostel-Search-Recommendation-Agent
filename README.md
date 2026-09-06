@@ -73,7 +73,15 @@ Note: Never upload your API keys to GitHub. Add .env to .gitignore.
 
 python -m backend.agent
 
-Example user query:
+### Local Web Interface (Streamlit UI)
+
+To launch the interactive chat UI on localhost:
+
+Bash
+streamlit run app.py
+Local Web URL: Open http://localhost:8501 in your browser.
+
+#### Example user query:
 
 Find hostels in Vadapalani under ₹8000 near a metro station with Wi-Fi.
 
