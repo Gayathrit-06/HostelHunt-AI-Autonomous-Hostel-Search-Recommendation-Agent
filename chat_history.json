@@ -1,0 +1,23 @@
+{
+  "88349994-004d-40bd-9e0d-fc1109e6da24": {
+    "title": "Find hostels in coimba...",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find hostels in coimbatore under 15000 "
+      },
+      {
+        "role": "assistant",
+        "content": "1. **Coimbatore Hostel**\nLocation: Accessible to Coimbatore\nRent: ₹5,738/month\nAmenities: Wi-Fi, Power Backup, Food Options, Housekeeping\n🗺️ Directions: [Google Maps Directions](https://www.google.com/maps/dir/?api=1&destination=Coimbatore%20Hostel%20Coimbatore)\n\n2. **Bikers Hostel**\nLocation: Accessible to Coimbatore\nRent: ₹13,000 – ₹15,000/month\nAmenities: AC Rooms\n🗺️ Directions: [Google Maps Directions](https://www.google.com/maps/dir/?api=1&destination=Bikers%20Hostel%20Coimbatore)\n\n3. **Mens Hostel**\nLocation: Accessible to Coimbatore\nRent: ₹13,000 – ₹15,000/month\nAmenities: AC Rooms\n🗺️ Directions: [Google Maps Directions](https://www.google.com/maps/dir/?api=1&destination=Mens%20Hostel%20Coimbatore)"
+      },
+      {
+        "role": "user",
+        "content": "Find 5 hostels in madhurai"
+      },
+      {
+        "role": "assistant",
+        "content": "1. **Hostels For Boys. Boys' Town Hostel**\nLocation: Accessible to Madhurai\nRent: ₹4,000 – ₹7,000/month\nAmenities: Wi-Fi, Power Backup, Food Options, Housekeeping\n🗺️ Directions: [Google Maps Directions](https://www.google.com/maps/dir/?api=1&destination=Hostels%20For%20Boys.%20Boys%27%20Town%20Hostel%20Madhurai)"
+      }
+    ]
+  }
+}
