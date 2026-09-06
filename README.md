@@ -59,9 +59,9 @@ pip install -r requirements.txt
 
 Create a .env file in the project root directory:
 
-### GPLACES_API_KEY=AIzaSyCuSBy_33inHkgutyPZWaoBXLUxdYy1ODI
+#### GPLACES_API_KEY = AIzaSyCuSBy_33inHkgutyPZWaoBXLUxdYy1ODI
 
-### TAVILY_API_KEY=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
+#### TAVILY_API_KEY = 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
 
 Note: Never upload your API keys to GitHub. Add .env to .gitignore.
 
