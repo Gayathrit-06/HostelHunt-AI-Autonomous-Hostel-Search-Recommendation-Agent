@@ -5,7 +5,7 @@ import urllib.parse
 from typing_extensions import TypedDict, Annotated
 
 import googlemaps
-from langchain_core.messages import BaseMessage, AIMessage
+from langchain_core.messages import BaseMessage, AIMessage, HumanMessage
 from langgraph.graph import StateGraph, START, END
 
 try:
@@ -261,3 +261,26 @@ builder.add_conditional_edges("google_places", route_after_google)
 builder.add_edge("tavily_fallback", END)
 
 agent_executor = builder.compile()
+
+if __name__ == "__main__":
+    print("🤖 HostelHunt AI Agent is live! Type 'exit' or 'quit' to stop.\n")
+    
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() in ["exit", "quit"]:
+            print("Shutting down...")
+            break
+            
+        if not user_input.strip():
+            continue
+
+        test_state = {
+            "messages": [HumanMessage(content=user_input)],
+            "error": None
+        }
+        
+        result = agent_executor.invoke(test_state)
+        
+        print("\n--- Agent Response ---")
+        print(result["messages"][-1].content)
+        print("-" * 30 + "\n")
